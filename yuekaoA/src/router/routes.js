@@ -42,6 +42,10 @@ export const routes = [
         component:()=>import('@/views/add')
     },
     {
+        path:"/two",
+        component:()=>import('@/views/two')
+    },
+    {
         path:"*",
         component:()=>import('@/views/404')
     }
